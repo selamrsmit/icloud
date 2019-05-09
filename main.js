@@ -19,7 +19,7 @@ var $;
 			//$(".friend-name:contains(team3.michael)").html("HUNTER Michael")
 			//$(".friend-name:contains(team1.dennis)").html("HUNTER Dennis")
 			$(".me-row-view").css("display","none");
-			$(".nearby").css("display","none");
+			//$(".nearby").css("display","none");
 			
 		}, 1000);
     };
