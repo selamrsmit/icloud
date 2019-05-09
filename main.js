@@ -816,7 +816,7 @@ function(e) {
                 key: t,
                 property: this
             }),
-            Object(o.a)(i, h.a) && Object(c.b)("You can’t pass bindings into a property definition on `defaultValue`; you must pass it in on `binding` (%{key}).", {
+            Object(o.a)(i, h.a) && Object(c.b)("You can�t pass bindings into a property definition on `defaultValue`; you must pass it in on `binding` (%{key}).", {
                 binding: n,
                 property: this,
                 key: t
@@ -4475,7 +4475,7 @@ function(e) {
       , u = function(e, t, n) {
         var r = {}
           , s = a(function() {
-            return !!o[e]() || "​" != "​"[e]()
+            return !!o[e]() || "??" != "??"[e]()
         })
           , c = r[e] = s ? t(h) : o[e];
         n && (r[n] = c),
@@ -4729,13 +4729,13 @@ function(e) {
             if (this.releaseCollector(c),
             !this.validateType(h)) {
                 var d = this.property.type;
-                Object(a.a)(h, i.a) ? Object(o.b)('Type error: cannot return %{value} (an instance of %{constructor}) from observable property "%{key}" of %{object} which expected a %{type}. Value passed type check at `set` time, but was transformed inappropriately by an upstream property’s getter or setter.', {
+                Object(a.a)(h, i.a) ? Object(o.b)('Type error: cannot return %{value} (an instance of %{constructor}) from observable property "%{key}" of %{object} which expected a %{type}. Value passed type check at `set` time, but was transformed inappropriately by an upstream property�s getter or setter.', {
                     object: e,
                     key: this.key,
                     value: h,
                     constructor: h.constructor,
                     type: d
-                }) : Object(o.b)('Type error: cannot return value %{value} from observable property "%{key}" of %{object} which expected a %{type}. Value passed type check at `set` time, but was transformed inappropriately by an upstream property’s getter or setter.', {
+                }) : Object(o.b)('Type error: cannot return value %{value} from observable property "%{key}" of %{object} which expected a %{type}. Value passed type check at `set` time, but was transformed inappropriately by an upstream property�s getter or setter.', {
                     object: e,
                     key: this.key,
                     value: h,
@@ -4831,7 +4831,7 @@ function(e) {
         _valueOffsetCount: 0,
         setUpNode: r.a,
         validateDescendantDownstreamNodeManager: function(e, t, n) {
-            e.property !== this.property && Object(a.b)("A property’s upstream node may only connect to the downstream node for the same property (key: %{key}, downstream property key: {%downstreamKey}). …If you get this error, please contact the CoreWeb team, as you’ve discovered a unicorn.", {
+            e.property !== this.property && Object(a.b)("A property�s upstream node may only connect to the downstream node for the same property (key: %{key}, downstream property key: {%downstreamKey}). �If you get this error, please contact the CoreWeb team, as you�ve discovered a unicorn.", {
                 key: this.key,
                 downstreamKey: e.key
             })
@@ -4943,7 +4943,7 @@ function(e) {
     )("versions", []).push({
         version: i.version,
         mode: n(49) ? "pure" : "global",
-        copyright: "© 2018 Denis Pushkarev (zloirock.ru)"
+        copyright: "� 2018 Denis Pushkarev (zloirock.ru)"
     })
 }
 , function(e, t, n) {
@@ -5715,7 +5715,7 @@ function(e) {
             e = e.substring(1));
             var i = Object(s.a)(e)
               , r = i[0];
-            n || ("global" === r || "🌐" === r ? (t = window,
+            n || ("global" === r || "??" === r ? (t = window,
             i.shift()) : "(owner)" === r && (t && Object(o.b)("Cannot create a CW.Binding relative to (owner): %{path}. It already has a root object.", {
                 rootObject: t,
                 path: e
@@ -5937,7 +5937,7 @@ function(e) {
     }
 }
 , function(e, t) {
-    e.exports = "\t\n\v\f\r   ᠎             　\u2028\u2029\ufeff"
+    e.exports = "\t\n\v\f\r  ??       ?????? \u2028\u2029\ufeff"
 }
 , function(e, t, n) {
     var i = n(8)
@@ -13612,28 +13612,28 @@ function(e) {
                 }
             });
             var ie = {
-                arab: ["٠", "١", "٢", "٣", "٤", "٥", "٦", "٧", "٨", "٩"],
-                arabext: ["۰", "۱", "۲", "۳", "۴", "۵", "۶", "۷", "۸", "۹"],
-                bali: ["᭐", "᭑", "᭒", "᭓", "᭔", "᭕", "᭖", "᭗", "᭘", "᭙"],
-                beng: ["০", "১", "২", "৩", "৪", "৫", "৬", "৭", "৮", "৯"],
-                deva: ["०", "१", "२", "३", "४", "५", "६", "७", "८", "९"],
-                fullwide: ["０", "１", "２", "３", "４", "５", "６", "７", "８", "９"],
-                gujr: ["૦", "૧", "૨", "૩", "૪", "૫", "૬", "૭", "૮", "૯"],
-                guru: ["੦", "੧", "੨", "੩", "੪", "੫", "੬", "੭", "੮", "੯"],
-                hanidec: ["〇", "一", "二", "三", "四", "五", "六", "七", "八", "九"],
-                khmr: ["០", "១", "២", "៣", "៤", "៥", "៦", "៧", "៨", "៩"],
-                knda: ["೦", "೧", "೨", "೩", "೪", "೫", "೬", "೭", "೮", "೯"],
-                laoo: ["໐", "໑", "໒", "໓", "໔", "໕", "໖", "໗", "໘", "໙"],
+                arab: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                arabext: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                bali: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                beng: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                deva: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                fullwide: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+                gujr: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                guru: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                hanidec: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                khmr: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                knda: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                laoo: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
                 latn: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
-                limb: ["᥆", "᥇", "᥈", "᥉", "᥊", "᥋", "᥌", "᥍", "᥎", "᥏"],
-                mlym: ["൦", "൧", "൨", "൩", "൪", "൫", "൬", "൭", "൮", "൯"],
-                mong: ["᠐", "᠑", "᠒", "᠓", "᠔", "᠕", "᠖", "᠗", "᠘", "᠙"],
-                mymr: ["၀", "၁", "၂", "၃", "၄", "၅", "၆", "၇", "၈", "၉"],
-                orya: ["୦", "୧", "୨", "୩", "୪", "୫", "୬", "୭", "୮", "୯"],
-                tamldec: ["௦", "௧", "௨", "௩", "௪", "௫", "௬", "௭", "௮", "௯"],
-                telu: ["౦", "౧", "౨", "౩", "౪", "౫", "౬", "౭", "౮", "౯"],
-                thai: ["๐", "๑", "๒", "๓", "๔", "๕", "๖", "๗", "๘", "๙"],
-                tibt: ["༠", "༡", "༢", "༣", "༤", "༥", "༦", "༧", "༨", "༩"]
+                limb: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                mlym: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                mong: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                mymr: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                orya: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                tamldec: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                telu: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                thai: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"],
+                tibt: ["?", "?", "?", "?", "?", "?", "?", "?", "?", "?"]
             };
             f(q.NumberFormat.prototype, "resolvedOptions", {
                 configurable: !0,
@@ -15578,7 +15578,7 @@ function(e) {
         "NameFormatLast": "%{lastName}",
         "PrefPane.LocationSharingLabel": "Locatie delen",
         "MeRow.NotSharingLocation": "Locatie niet gedeeld",
-        "PrefPane.ConnectedWatchText": "en mobiele Apple Watches",
+        "PrefPane.ConnectedWatchText": "en mobiele Apple Watches",
         "TimeLabel.HoursLeft": "nog %{hours} uur",
         "Label.Other": "Anders",
         "NameMonogramFormat": "%{firstNameInitial}%{lastNameInitial}",
@@ -15588,7 +15588,7 @@ function(e) {
         "FriendList.NoFriends.Text": "Gebruik de app Zoek mijn vrienden op een iOS-apparaat om je locatie te delen met vrienden.",
         "TimeLabel.HoursAgo": "%{hours} uur geleden",
         "PrefPane.ShareMyLocationCheckboxLabel": "Deel mijn locatie",
-        "FriendList.Loading": "Laden …",
+        "FriendList.Loading": "Laden �",
         "NoLocation.IsAFollower": "%{friendName} volgt je locatie.",
         "PrefPane.ShareMyLocationDeviceDescription": "De locatie van het geselecteerde apparaat wordt gedeeld met je vrienden.",
         "Toolbar.Home": "Zoek mijn vrienden",
@@ -15608,7 +15608,7 @@ function(e) {
         "PrefPane.SelectDistanceUnitsLabel": "Afstanden",
         "FriendList.Nearby.ManyFriends": "%{count} vrienden gevonden",
         "NameFormatFirst": "%{firstName}",
-        "FriendList.Locating": "Bezig met zoeken…"
+        "FriendList.Locating": "Bezig met zoeken�"
     });
     var r = n(470)
       , a = n(407)
@@ -17252,7 +17252,7 @@ function(e) {
             e === t && (e = t.body);
             var n = e.style;
             n ? (n.msTouchAction = "none",
-            n.touchAction = "none") : a.b.warn("Could not attach `touch-action` property to the `RootResponder`’s element. Some touch events will be handled by default browser behavior instead of going to the `RootResponder`.")
+            n.touchAction = "none") : a.b.warn("Could not attach `touch-action` property to the `RootResponder`�s element. Some touch events will be handled by default browser behavior instead of going to the `RootResponder`.")
         }
     };
     function $e(e) {
@@ -20842,7 +20842,7 @@ function(e) {
                 },
                 render: function(e, t, n) {
                     var i = n.attributes.escape;
-                    return "false" === i || "dangerous" === i ? t.createElement("span") : t.createTextNode("​")
+                    return "false" === i || "dangerous" === i ? t.createElement("span") : t.createTextNode("?")
                 }
             })
         }
@@ -22576,7 +22576,7 @@ function(e) {
         "Toolbar.Button.Action.UserAction": "iCloud-instellingen en log uit",
         "HSA.SignoutDialog.SignoutButton": "Log uit",
         "Button.Cancel": "Annuleer",
-        "HSA.SignoutDialog.CheckboxTitle": "Onthoud mij op deze browser zodat ik mijn identiteit de volgende keer niet meer hoef te verifiëren.",
+        "HSA.SignoutDialog.CheckboxTitle": "Onthoud mij op deze browser zodat ik mijn identiteit de volgende keer niet meer hoef te verifi�ren.",
         "AccountMenu.SignOut": "Log uit"
     });
     var wa = h.b("AppleIdEntryType", {
@@ -22883,9 +22883,9 @@ function(e) {
         },
         getServiceUrlFor: function(e, t) {
             var n, i = this.getServiceInfoFor(e), r = null;
-            return i ? (r = i.get("url") || null) || (n = Ar.a("User.getServiceUrlFor(): Could not find the URL for “%{name}”", {
+            return i ? (r = i.get("url") || null) || (n = Ar.a("User.getServiceUrlFor(): Could not find the URL for �%{name}�", {
                 name: e
-            })) : n = Ar.a("User.getServiceUrlFor(): Could not find service information for “%{name}”", {
+            })) : n = Ar.a("User.getServiceUrlFor(): Could not find service information for �%{name}�", {
                 name: e
             }),
             n && (t ? _.b(n) : a.b.error(n)),
@@ -40290,4 +40290,3 @@ function(e) {
     }
 }
 ]);
-
